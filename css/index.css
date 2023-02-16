@@ -1,0 +1,133 @@
+body {
+  padding: 0 100px;
+}
+section {
+  padding: 50px 0;
+}
+
+img {
+  border-radius: 10px;
+}
+
+p {
+  font-size: 24px;
+}
+
+.my-btn {
+  text-decoration: none;
+
+  width: 100px;
+  padding: 15px 30px;
+
+  text-align: center;
+  border: none;
+  border-radius: 10px;
+  background-color: #eeeeee;
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+
+  cursor: pointer;
+}
+
+/* about me */
+.title-my-name {
+  padding: 10px 0 0 0;
+  font-size: 42px;
+}
+
+.section-about-me {
+  height: 100vh;
+  text-align: center;
+}
+
+.content-about-me {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* movie */
+.title {
+  font-size: 60px;
+}
+
+.movie-item {
+  display: flex;
+  gap: 60px;
+  padding: 100px 0;
+  border-bottom: 1px solid lightgray;
+}
+
+.movie-contents {
+  display: flex;
+  flex-direction: column;
+
+  padding-right: 150px;
+  gap: 50px;
+}
+
+.movie-title {
+  font-size: 42px;
+  font-weight: 700;
+}
+
+.movie-desc {
+  font-size: 24px;
+}
+
+.my-btn {
+  text-decoration: none;
+
+  width: 100px;
+  padding: 15px 30px;
+
+  text-align: center;
+  border-radius: 10px;
+  background-color: #eeeeee;
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/* guest book */
+.guest-title {
+  font-size: 32px;
+}
+
+.guest-book-contents {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.input-text {
+  width: 200px;
+  height: 60px;
+  font-size: 30px;
+  border: 0;
+  border-radius: 20px;
+  outline: none;
+  padding: 0 20px;
+  background-color: rgb(233, 233, 233);
+}
+
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+}
+
+label {
+  font-size: 24px;
+}
+
+.guest-movie-list {
+  display: flex;
+  gap: 30px;
+}
+
+.btn-container {
+  display: flex;
+  gap: 10px;
+}
